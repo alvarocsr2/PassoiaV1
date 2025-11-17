@@ -1,19 +1,18 @@
-import "./Header.scss/"
-import Logomarca from "../../assets/Imgs/Logomarca.png"
+import "./Header.scss/";
+import Logomarca from "../../assets/Imgs/Logomarca.png";
 
-function Header(){
+function Header() {
   return (
-   <header>
-    <img src={Logomarca} alt="Foto da logo do site" />
+    <header>
+      <img src={Logomarca} alt="Foto da logo do site" />
 
-    <ul>
-    <li>LOOKS</li>
-    <li>LANÇAMENTOS</li>
-    <li>NOVIDADES</li>
-    </ul>
-    
-   </header>
-  )
+      <ul>
+        <li>LOOKS</li>
+        <li>LANÇAMENTOS</li>
+        <li>NOVIDADES</li>
+      </ul>
+    </header>
+  );
 }
 
-export default Header
+export default Header;
