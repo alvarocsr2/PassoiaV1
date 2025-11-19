@@ -1,5 +1,5 @@
 import "./Header.scss/";
-import Logomarca from "../../assets/Imgs/Logomarca.png";
+import Logomarca from "../../assets/imgs/Logomarca.png";
 
 function Header() {
   return (
